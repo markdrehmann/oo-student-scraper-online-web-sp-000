@@ -2,7 +2,7 @@ require 'open-uri'
 require 'pry'
 
 class Scraper
-
+binding.pry
   def test
     doc = Nokogiri::HTML(open("https://www.packers.com/team/players-roster/"))
     binding.pry
