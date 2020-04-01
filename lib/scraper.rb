@@ -6,7 +6,7 @@ class Scraper
   def test
     binding.pry
     doc = Nokogiri::HTML(open("https://www.packers.com/team/players-roster/"))
-    
+
   end
 
   # def self.scrape_index_page(index_url)
